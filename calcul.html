@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monk's Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    
+</head>
+<body>
+<div class="container">
+    <div class="calculator">
+        <div>
+            <input type="text" id ="display" class="display">
+        </div>
+        <div class="buttons">
+            <button class="operator btn" data-off value="OFF">OFF</button>
+            <button class="operator btn" value="BS" onclick="delChar()">BS</button>
+            <button class="operator btn" value="C" onclick="clrChar()">C</button>
+            <button class="operator btn" value="+"onclick="getValue(value)">+</button>
+
+            <button class="btn" value="1" onclick="getValue(value)">1</button>
+            <button class="btn" value="2"onclick="getValue(value)">2</button>
+            <button class="btn" value="3"onclick="getValue(value)">3</button>
+            <button class="operator btn" value="-"onclick="getValue(value)">-</button>
+
+            <button class="btn" value="4"onclick="getValue(value)">4</button>
+            <button class="btn" value="5"onclick="getValue(value)">5</button>
+            <button class="btn" value="6"onclick="getValue(value)">6</button>
+            <button class="operator btn" value="*"onclick="getValue(value)">x</button>
+
+            <button class="btn" value="7"onclick="getValue(value)">7</button>
+            <button class="btn" value="8"onclick="getValue(value)">8</button>
+            <button class="btn" value="9"onclick="getValue(value)">9</button>
+            <button class="operator btn" value="/"onclick="getValue(value)">/</button>
+        </div>
+        <div class="nty">
+            
+            <button class="btn" value="0"onclick="getValue(value)">0</button>
+            <button class="operator btn" value="."onclick="getValue(value)">.</button>
+            <button class="operator btn mine" value="="onclick="getresult()">=</button>
+            
+        </div>
+    </div>
+
+    <script src="new.js"></script>
+</body>
+<script>
+  
+</script>
+</html>
+
